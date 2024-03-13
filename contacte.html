@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contacte</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <p> Nom: <input type="text" name="champtexte" id="champtexte" size="15" maxlength="10"></p>
+
+        <p> Prenom: <input type="text" name="champtexte" id="champtexte" size="15" maxlength="10"></p>
+
+    
+
+        <p> Sexe:
+            <input type="radio" name="sexe" id="masculin"> Masculin
+            <input type="radio" name="sexe" id="feminin"> Féminin
+        </p>
+
+        <p> Commentaire:
+            <textarea name="texzonetexte" cols="30" rows="5">Ajoutez vos éventuelles remarques...</textarea>
+        </p>
+
+        <p> Sport:
+            <select name="select" size="1">
+                <option>Football</option>
+                <option>basketball</option>
+            </select>
+        </p>
+
+        <p> Mot de passe:
+            <input type="password" name="password" id="password" size="15" maxlength="10">
+        </p>
+
+        <p>
+            <input type="submit" name="envoie" value="Envoyer">
+            <input type="reset" name="annul" value="Annuler">
+        </p>
+    </form>
+</body>
+</html>
