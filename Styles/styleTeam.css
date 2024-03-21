@@ -62,3 +62,11 @@ li {
     border-radius: 5%;
     margin-right: 80px; 
 }
+
+.accueil {
+    width: 10%;
+    height: 10%;
+    display: block;
+    margin-left: 150%;
+    position: relative;
+}
